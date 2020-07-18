@@ -1,0 +1,477 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+  position: relative;
+  width: 100%;
+  background: #3b5998;
+  background-image:url(../images/logo-hiepsiit.png);
+  background-repeat:no-repeat; 
+  padding-left:160px;
+}
+
+.logo {
+  position: relative;
+  z-index: 123;
+  background-image:url(../images/smallhiepsiit1.png);
+  background-repeat:no-repeat; 
+  display:none;
+  width:0px;
+  height:0px;
+  }
+.showbox{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width:100%;
+ 	} 
+.largeshowbox{
+
+	border-radius: 5px;
+	background-color:#FFF;
+	width:100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	} 
+
+.icondangnhap {
+	margin-right: 40px;
+	margin-top:-3px;
+	text-align:right;
+}
+
+.icondangnhap img {	
+	margin-right:8px;	
+}
+
+.sharemenu{
+	margin: 30px 30px 20px 0px;
+}
+
+.sharemenu img{
+	width:50px;
+	height:auto;
+}
+
+
+.visiblesearch{
+ visibility:visible;
+}
+
+.clcosodulieu {
+  color: red;
+  background: red !important;
+}
+
+
+nav {
+  position: relative; 
+  margin: 0 auto;
+  padding-top: 3px;
+}
+
+.navbar-nav li a:hover{
+  color: #000;
+}
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #head-mobile {
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0
+}
+
+#cssmenu #head-mobile {
+  display: none
+}
+
+#cssmenu {
+  font-family:  Verdana,sans-serif;
+   background: #3b5998;
+   width:100%;
+   padding-top: 10px;
+   padding-right: 10px;
+	
+}
+
+#cssmenu > ul > li {
+  float: left;
+}
+
+#cssmenu > ul > li > a {
+  padding: 13px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ddd;
+  
+}
+
+#cssmenu > ul > li:hover > a,
+#cssmenu ul li.active a {
+  color: #fff
+}
+
+#cssmenu > ul > li:hover,
+#cssmenu ul li.active:hover,
+#cssmenu ul li.active,
+#cssmenu ul li.has-sub.active:hover {
+   text-decoration:underline;
+  -webkit-transition: background .3s ease;
+  -ms-transition: background .3s ease;
+  transition: background .3s ease;
+}
+
+#cssmenu > ul > li.has-sub > a {
+  padding-right: 30px;
+  
+}
+
+#cssmenu > ul > li.has-sub > a:after {
+  position: absolute;
+  top: 22px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #ddd;
+  content: ''
+}
+
+#cssmenu > ul > li.has-sub > a:before {
+  position: absolute;
+  top: 19px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #ddd;
+  content: '';
+  -webkit-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  transition: all .25s ease
+}
+
+#cssmenu > ul > li.has-sub:hover > a:before {
+  top: 23px;
+  height: 0
+}
+
+#cssmenu ul ul {
+  position: absolute;
+  left: -9999px
+}
+
+#cssmenu ul ul li {
+  height: 0;
+  -webkit-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  background: #3b5998;
+   z-index: 9999;
+  transition: all .25s ease
+}
+
+#cssmenu ul ul li:hover {
+	color:#000;
+	background:#039;
+	
+}
+
+#cssmenu li:hover > ul {
+  left: auto
+}
+
+#cssmenu li:hover > ul > li {
+  height: 35px
+}
+
+#cssmenu ul ul ul {
+  margin-left: 100%;
+  top: 0
+}
+
+#cssmenu ul ul li a {
+  border-bottom: 1px solid rgba(150, 150, 150, 0.15);
+  padding: 11px 15px;
+  width: 230px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #ddd;
+  font-weight: 400;
+}
+
+#cssmenu ul ul li:last-child > a,
+#cssmenu ul ul li.last-item > a {
+  border-bottom: 0
+}
+
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li a:hover {
+  color: #fff
+}
+
+#cssmenu ul ul li.has-sub > a:after {
+  position: absolute;
+  top: 16px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #ddd;
+  content: ''
+}
+
+#cssmenu ul ul li.has-sub > a:before {
+  position: absolute;
+  top: 13px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #ddd;
+  content: '';
+  -webkit-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  transition: all .25s ease
+}
+
+#cssmenu ul ul > li.has-sub:hover > a:before {
+  top: 17px;
+  height: 0
+}
+
+#cssmenu ul ul li.has-sub:hover,
+#cssmenu ul li.has-sub ul li.has-sub ul li:hover {
+  background: #363636;
+}
+
+#cssmenu ul ul ul li.active a {
+  border-left: 1px solid #333
+}
+
+#cssmenu > ul > li.has-sub > ul > li.active > a,
+#cssmenu > ul ul > li.has-sub > ul > li.active> a {
+  border-top: 1px solid #333
+}
+
+.w3-bar-block .w3-bar-item {
+  width: 100%;
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  white-space: normal;
+  float: none;
+  font-size: 13px;
+  outline: 0;
+}
+
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800; margin-right:20px} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+*******************************/
+	.modal.left .modal-dialog,
+	.modal.right .modal-dialog {
+		position: fixed;
+		margin: auto;
+		width: 320px;
+		height: 100%;
+		-webkit-transform: translate3d(0%, 0, 0);
+		    -ms-transform: translate3d(0%, 0, 0);
+		     -o-transform: translate3d(0%, 0, 0);
+		        transform: translate3d(0%, 0, 0);
+	}
+
+	.modal.left .modal-content,
+	.modal.right .modal-content {
+		height: 100%;
+		overflow-y: auto;
+	}
+	
+	.modal.left .modal-body,
+	.modal.right .modal-body {
+		padding: 15px 15px 80px;
+	}
+
+/*Left*/
+	.modal.left.fade .modal-dialog{
+		left: -320px;
+		-webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+		   -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+		     -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+		        transition: opacity 0.3s linear, left 0.3s ease-out;
+	}
+	
+	.modal.left.fade.in .modal-dialog{
+		left: 0;
+	}
+        
+/*Right*/
+	.modal.right.fade .modal-dialog {
+		right: -320px;
+		-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+		   -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+		     -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+		        transition: opacity 0.3s linear, right 0.3s ease-out;
+	}
+	
+	.modal.right.fade.in .modal-dialog {
+		right: 0;
+	}
+
+/* ----- MODAL STYLE ----- */
+	.modal-content-dk {
+		border-radius: 0;
+    border: none;
+    width: 450px;
+  }
+  .modal-content {
+		border-radius: 0;
+    border: none;
+ 
+	}
+
+	.modal-header {		
+		background-color: #3B5998;
+	}
+.lablelogin{
+	color:#FFF;
+	font-size:20px;
+	padding-left:100px;
+}
+.lableloginregister{
+	color:#FFF;
+	font-size:20px;
+	padding-left:50px;
+}
+
+.login_modal_footer{margin-top:5px;}
+.login_modal_header .modal-title {text-align: center;font-family:'Philosopher',sans-serif;color:#FFF; }
+.form-group{position: relative;}
+.form-group .login-field-icon {
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+    top: 3px;
+    transition: all 0.25s ease 0s;
+    padding-top: 2%;
+}
+.login-modal{
+    width:100%;
+    padding-bottom:20px;
+}
+.login_modal_header, .login_modal_footer {background: #3B5998 !important;color:#fff;}
+.modal-register-btn{margin: 4% 30% 2% 15% ;width:100%;}
+.login-modal input{ box-shadow: none; border:1px solid #ddd;}
+.modal-body-left{float:left; width:50%; padding-right:4%; border-right:4px solid #ddd;}
+.modal-body-register{float:left; width:100%; padding-right:4%; padding-left:4%;}
+.modal-body-right{float:right; width:47%;}
+.login-link{padding:0 20%;}
+.modal-social-icons{padding:0 10%;}
+.facebook, .twitter, .google, .linkedin {width:100%;height:40px; padding-top:2%; margin-top:2%;}
+.modal-icons{margin-left: -10px; margin-right: 20px;}
+.google, .google:hover{background-color:#dd4b39;border:2px solid #dd4b39;color:#fff;}
+.twitter, .twitter:hover{ background-color: #00aced; border:2px solid #00aced;color: #fff;}
+
+.linkedin, .linkedin:hover{background-color: #007bb6; border: 2px solid #007bb6; color:#fff;}
+#social-icons-conatainer{position: relative;}
+#center-line{position: absolute;  right: 265.7px;top: 80px;background:#ddd;  border: 4px solid #DDDDDD;border-radius: 20px;}
+.modal-login-btn{width:100%;height:40px; margin-bottom:30px;}
+#modal-launcher{margin: 30% 0 0 30%; }
+
+
+.btnother {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+	width:70px;
+    padding: 10px 10px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+	margin-right:5px;
+	border-radius:5px;
+}
+.paddingother{
+  padding-left:13px;
+  }
+  
+ 
+a.course:hover{
+   text-decoration:none;
+}
+h1 {
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+.top-job {
+    float: left;
+    color: #666;
+    margin: 0px 0px 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.btnApplyClick a{
+    margin-top: 5%; 
+    margin-left: 5%;
+    margin-bottom: 15%;
+}
+.list-benefits{
+    margin-left: 2%;
+}
+.info-career .info b {
+    padding-left: 0;
+    font-style: normal;
+   
+}
+.info-career .info span {
+    padding-right: 0;
+    
+}
+.info li{
+    margin-bottom: 3px;
+}
+.aboutustp .top-job {
+    margin-bottom: 15px;
+}
+.logo_c_right
+{
+    width: 90%;
+    margin-left: 5%;
+    border-bottom: 1px solid #222222;
+}
+.contem_company{
+    padding: 6%;
+}
+.top-job-info{
+    padding-left: 10%;
+}
+.menu_right{
+  float: right;
+} 

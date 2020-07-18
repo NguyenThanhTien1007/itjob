@@ -1,0 +1,505 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Tìm việc làm công nghệ thông tin, hiepsiit.com</title>
+<!-- Bootstrap CDN -->
+ <link rel="stylesheet" href="http://www.hiepsiit.com/public/user/assetsMain/css/bootstrap.min.css">  
+  <link rel="stylesheet" href="../css/w3c.css">
+<link rel="stylesheet" href="../css/myresponsive.css" />
+<link rel="stylesheet" href="../css/jobstyle.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+<script src="http://www.hiepsiit.com/public/user/assetsMain/js/vendor/jquery-1.11.2.min.js"></script>
+<script src="../ckeditor/ckeditor.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/js/select2.min.js"></script>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+ <script>
+   
+$(document).ready(function() {
+    $('.js-example-basic-multiple').select2();
+});
+</script> 
+ 
+</head>
+<body>
+  <nav class="navbar w3-metro-dark-blue navbar-fixed-top" role="navigation">
+    <div class="container ">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar">32</span>
+          <span class="icon-bar">ad</span>
+          <span class="icon-bar">asdsa</span>
+        </button>
+      </div>
+    
+      <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Trang chủ</a></li>
+          <li><a href="#contact">Quản Lý Đăng Tuyển
+</a></li>
+          <li><a href="#Mail" >Quản Lý Ứng Viên
+</a></li>
+          
+          <li><a href="#contact">Tài khoản</a></li>
+          <li ><a href="#" >Tìm hồ sơ</a></li>
+          <li ><a href="#" >Đăng tuyển dụng</a></li>
+           <li><a href="#">Xin chào, Vĩnh</a></li>
+     
+        </ul>
+               
+      </div>
+    </div>
+  </nav>
+
+<div class="row top"></div> 
+ 
+
+  <div class="container ">
+    <div class="row ">
+        <div class="col-sm-3" >
+            <div  class="w3-card-2 w3-margin-bottom">
+            <div class="panel  panel-primary">
+      		<div class="panel-heading"><b>Quản Lý Đăng Tuyển</b></div>
+      		<div class="panel-body">
+                <div class="w3-bar-block ">
+                  <a href="#" class="w3-bar-item w3-button active">Việc Làm Đang Đăng (0)</a>
+                  <a href="#" class="w3-bar-item w3-button">Việc Làm Chờ Đăng (0)</a>
+                  <a href="#" class="w3-bar-item w3-button">Việc Làm Tạm Dừng Đăng (0)</a>
+                  <a href="#" class="w3-bar-item w3-button">Việc Làm Hết Hạn (0)</a>
+                 </div>
+                 </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm-9">
+           <div class="panel  panel-primary">
+      		<div class="panel-heading"><b>Đăng Tuyển Dụng</b></div>
+      		<div class="panel-body" style="margin-left:30px;margin-right:40px">
+          
+                      <form  action="/action_page.php">
+                        <div class="form-group row">
+                          <label class="control-label col-sm-4" for="email">Tên việc làm/ Vị trí chức danh:</label>
+                          <div class="col-sm-8">
+                           <input type="text" class="form-control " id="position" name="position" autofocus="" required="" placeholder="Nhập tên việc làm (hoặc) vị trí chức danh IT cần tuyển dụng" aria-required="true">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="control-label col-sm-4" for="pwd">Chi tiết tuyển dụng:</label>
+                          <div class="col-sm-8">          
+                             <textarea class="form-control ckeditor" rows="5" placeholder="" id="objective_job" name="objective_job" style="visibility: hidden; display: none;">
+							</textarea>
+                          </div>
+                        </div>
+                        <div class="form-group row">        
+                          	<label class="control-label col-sm-4" for="pwd">Chọn chức danh nghề nghiệp:</label>
+                          <div class="col-sm-8">          
+                           	 <input type="text" class="form-control" id="job" name="job" autofocus="" required="" placeholder="Chọn chức danh nghề nghiệp IT" aria-required="true">
+                          </div>
+                        </div>
+                        
+                        <div class="form-group row">        
+                          	<label class="control-label col-sm-4" for="pwd">Chọn nơi làm việc:</label>
+                          <div class="col-sm-8">  
+       
+<select class="js-example-basic-multiple" name="states[]" multiple="multiple" style="width:100%">				<option value="">Chọn</option><option value="4">Hà Nội</option><option value="8">Hồ Chí Minh</option><option value="76">An Giang</option><option value="64">Bà Rịa - Vũng Tàu</option><option value="781">Bạc Liêu</option><option value="281">Bắc Cạn</option><option value="240">Bắc Giang</option><option value="241">Bắc Ninh</option><option value="75">Bến Tre</option><option value="650">Bình Dương</option><option value="56">Bình Định</option><option value="651">Bình Phước</option><option value="62">Bình Thuận</option><option value="78">Cà Mau</option><option value="26">Cao Bằng</option><option value="71">Cần Thơ</option><option value="50">Dak Lak</option><option value="1042">Dak Nông</option><option value="511">Đà Nẵng</option><option value="900">Điện Biên</option><option value="61">Đồng Nai</option><option value="67">Đồng Tháp</option><option value="59">Gia Lai</option><option value="19">Hà Giang</option><option value="351">Hà Nam</option><option value="39">Hà Tĩnh</option><option value="320">Hải Dương</option><option value="31">Hải Phòng</option><option value="780">Hậu Giang</option><option value="18">Hòa Bình</option><option value="321">Hưng Yên</option><option value="58">Khánh Hòa</option><option value="77">Kiên Giang</option><option value="60">Kon Tum</option><option value="23">Lai Châu</option><option value="25">Lạng Sơn</option><option value="20">Lào Cai</option><option value="63">Lâm Đồng</option><option value="72">Long An</option><option value="350">Nam Định</option><option value="38">Nghệ An</option><option value="30">Ninh Bình</option><option value="68">Ninh Thuận</option><option value="210">Phú Thọ</option><option value="57">Phú Yên</option><option value="52">Quảng Bình</option><option value="510">Quảng Nam</option><option value="55">Quảng Ngãi</option><option value="33">Quảng Ninh</option><option value="53">Quảng Trị</option><option value="79">Sóc Trăng</option><option value="22">Sơn La</option><option value="66">Tây Ninh</option><option value="36">Thái Bình</option><option value="280">Thái Nguyên</option><option value="37">Thanh Hóa</option><option value="54">Thừa Thiên- Huế</option><option value="73">Tiền Giang</option><option value="74">Trà Vinh</option><option value="27">Tuyên Quang</option><option value="70">Vĩnh Long</option><option value="211">Vĩnh Phúc</option><option value="29">Yên Bái</option></select>
+                          </div>
+                          </div>
+                         <div class="form-group row">        
+                          	<label class="control-label col-sm-4" for="pwd">Mức lương hàng tháng *:</label>
+                          <div class="col-sm-8 form-inline">          
+                           	 <div class="fl_left width_530">
+                                    <select  name="job_salaryunit" id="job_salaryunit"  class="form-control" >
+	                                    <option value="vnd">VNĐ</option>
+	                                    <option value="usd">USD</option>
+                                    </select>
+                                    <span class="mar_leftright8 fl_left">Tối Thiểu <span class="red">*</span></span>
+                                    <input  class="form-control" size="10"  name="salary_from" id="salary_from" maxlength="12" value="" >
+                                    <span class="mar_leftright8 fl_left">Tối Đa <span class="red">*</span></span>
+                                    <input  class="form-control"  size="10" name="salary_to" id="salary_to" maxlength="12" value="" >
+                                    <div class="display_ads">
+                                    	<label>
+                                        	<input class="input_margin" type="checkbox" name="JOB_ISSECURITY" value="0" checked="checked">
+                                            <span>"Hiển thị thông tin lương" trên vị trí đăng tuyển</span>
+                                        </label>  
+                                        <div class="fl_left mar_top10">
+                                            <p class="width_62 fl_left"><b>Lưu ý:</b></p>
+                              
+                                        	- 72% ứng viên chia sẻ rằng thông tin lương ảnh hưởng đến quyết định ứng tuyển của họ.
+                                                                        <br>- Bạn có thể quyết định "hiển thị thông tin lương" để thu hút thêm nhiều hồ sơ ứng tuyển vào vị trí tuyển dụng.
+        <p style="color:black ; font-weight: bold;">- Bạn nên nhập cả hai mức lương tối thiểu và tối đa cho vị trí cần đăng tuyển.</p>
+                                        </div>                                  	
+                                    </div>                                    
+                                    <div id="error_salary"></div>
+                                </div>
+                          </div>
+                        </div>
+                        <div class="form-group row">        
+                          	<label class="control-label col-sm-4" for="pwd">Hình thức làm việc *:</label>
+                          <div class="col-sm-8  ">
+                                <div class="form-group">
+                                    <label class="checkbox-inline"><input type="checkbox" name="chkResumeType_1" checked="checked" id="chkResumeType_1" value="1">Nhân viên chính thức</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="chkResumeType_2" checked="checked" id="chkResumeType_2" value="2">Thời vụ/ Nghề tự do </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="checkbox-inline"><input type="checkbox" name="chkResumeType_3" checked="checked" id="chkResumeType_3" value="3">Bán thời gian</label>
+                                    <label class="checkbox-inline"> <input type="checkbox" name="chkResumeType_4" checked="checked" id="chkResumeType_4" value="4">Thực tập</label>
+                                </div>
+                                <span id="error_resumetype"></span>
+                            </div>
+                        </div>
+						  
+                         <div class="form-group row">        
+                          	<label class="control-label col-sm-4" for="pwd">Kỹ năng làm việc:</label>
+                          <div class="col-sm-8">          
+                           	 <input type="text" class="form-control" id="txtskill" name="txtskill" autofocus="" required="" placeholder="Ví dụ: ASPX, C#, Java.." aria-required="true">Yêu cầu người ứng tuyển phải biết (Ví dụ: ASPX, C#, Java..) mỗi kỹ năng nhập vào cách nhau dấu <b>","</b>
+                          </div>
+                        </div>
+                        <div class="form-group row">        
+                          	<label class="control-label col-sm-4 " for="pwd">Hạn nộp hồ sơ:</label>
+                          <div class="col-sm-8">          
+                           	 <div class="container">
+									<div class="row">
+										<div class='col-sm-6'>
+											<div class="form-group">
+												<div class='input-group date' id='datetimepicker1'>
+													<input type='text' class="form-control" />
+													<span class="input-group-addon">
+														<span class="glyphicon glyphicon-calendar"></span>
+													</span>
+												</div>
+											</div>
+										</div>
+										<script type="text/javascript">
+											$(function () {
+												$('#datetimepicker1').datetimepicker();
+											});
+										</script>
+									</div>
+							</div>
+                             <input type="text" class="form-control" id="job" name="job" autofocus="" required="" placeholder="Chọn chức danh nghề nghiệp IT" aria-required="true">
+                          </div>
+                        </div>
+                      	<div class="row " ><h1 class="w3-large"><b>Phúc lợi</b></h1></div>
+						  <div class="row w3-margin-left">															
+								<div class="w3-responsive">
+								 <table style="width:100%;line-height:30px">
+								<tr>
+									<td>
+									<label>
+										<input type="checkbox" class="input_margin" id="BENEFIT_ID_2" name="BENEFIT_ID[]" value="2">
+										<span><i class="fa fa-medkit"></i> Bảo hiểm theo quy định</span>
+									</label>    
+									</td>
+									<td>	
+									<label>
+										<input type="checkbox" class="input_margin" id="BENEFIT_ID_3" name="BENEFIT_ID[]" value="3">
+										<span><i class="fa fa-plane"></i> Du Lịch</span>
+									</label>    
+									</td>
+									<td>
+									<label>
+										<input type="checkbox" class="input_margin" id="BENEFIT_ID_8" name="BENEFIT_ID[]" value="8">
+										<span><i class="fa fa-usd"></i> Thưởng</span>
+									</label> 
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>
+											<input type="checkbox" class="input_margin" id="BENEFIT_ID_9" name="BENEFIT_ID[]" value="9">
+											<span><i class="fa fa-user-md"></i> Chăm sóc sức khỏe</span>
+										</label>    
+									</td>
+									<td>
+										<label>
+											<input type="checkbox" class="input_margin" id="BENEFIT_ID_10" name="BENEFIT_ID[]" value="10">
+											<span><i class="fa fa-graduation-cap"></i> Đào tạo</span>
+										</label>
+									</td>
+									<td>	
+									<label>
+										<input type="checkbox" class="input_margin" id="BENEFIT_ID_11" name="BENEFIT_ID[]" value="11">
+										<span><i class="fa fa-line-chart"></i> Tăng lương</span>
+									</label> 
+									</td>
+									</tr>
+									<tr>
+									<td>
+									</div><div class="item bonus" style="display: block;">									<label>
+										<input type="checkbox" class="input_margin" id="BENEFIT_ID_1" name="BENEFIT_ID[]" value="1">
+										<span><i class="fa fa-laptop"></i> Máy tính xách tay</span>
+									</label>    
+									</td>
+									<td>
+									<label>
+										<input type="checkbox" class="input_margin" id="BENEFIT_ID_4" name="BENEFIT_ID[]" value="4">
+										<span><i class="fa fa-money"></i> Phụ cấp</span>
+									</label>
+									</td>
+									<td>	
+									<label>
+										<input type="checkbox" class="input_margin" id="BENEFIT_ID_5" name="BENEFIT_ID[]" value="5">
+										<span><i class="fa fa-taxi"></i> Xe đưa đón</span>
+									</label>
+									</td>
+									</tr>
+									<tr>
+									<td>
+									<label>
+										<input type="checkbox" class="input_margin" id="BENEFIT_ID_6" name="BENEFIT_ID[]" value="6">
+										<span><i class="fa fa-fighter-jet"></i> Du lịch nước ngoài</span>
+									</label>    
+									</td>
+									<td>
+									<label>
+										<input type="checkbox" class="input_margin" id="BENEFIT_ID_7" name="BENEFIT_ID[]" value="7">
+										<span><i class="fa fa-black-tie"></i> Đồng phục</span>
+									</label>    
+									</td>
+									<td>
+									<label>
+										<input type="checkbox" class="input_margin" id="BENEFIT_ID_12" name="BENEFIT_ID[]" value="12">
+										<span><i class="fa fa-credit-card"></i> Công tác phí</span>
+									</label> 
+									</td>
+									</tr>
+									<tr>
+									<td>
+									<label>
+										<input type="checkbox" class="input_margin" id="BENEFIT_ID_13" name="BENEFIT_ID[]" value="13">
+										<span><i class="fa fa-money"></i> Phụ cấp thâm niên</span>
+									</label>    
+									</td>
+									<td>
+									<label>
+										<input type="checkbox" class="input_margin" id="BENEFIT_ID_14" name="BENEFIT_ID[]" value="14">
+										<span><i class="fa fa-briefcase"></i> Chế độ nghỉ phép</span>
+									</label>    
+									</td>
+									<td>
+									<label>
+										<input type="checkbox" class="input_margin" id="BENEFIT_ID_15" name="BENEFIT_ID[]" value="15">
+										<span><i class="fa fa-heartbeat"></i> Chế độ tập thể dục</span>
+									</label>
+									</td>
+									</tr>
+								</table>	                                
+								</div>								
+								
+							</div>
+						  <!-- Thông tin chung -->
+						  <div class="row " ><h1 class="w3-large"><b>Yêu cầu chung</b></h1></div>
+						   <div class="form-group row">        
+								<label class="control-label col-sm-4" for="pwd">Giới tính *:</label>
+							  <div class="col-sm-8  form-inline ">
+									
+										<input type="radio" name="rdi_sex"	d="rdi_unsex" value="0">Nam/Nữ
+										<input type="radio" name="rdi_sex"  id="rdi_unsex" value="1">Nam 
+										<input type="radio" name="rdi_sex"  id="rdi_unsex" value="2">Nữ 
+								  									
+									
+								</div>
+							</div>
+						  <div class="form-group row">        
+								<label class="control-label col-sm-4" for="pwd">Tuổi:</label>
+							  <div class="col-sm-8 form-inline ">									
+										<input  class="form-control" size="10"  name="salary_from" id="age_from" maxlength="12" value="" >&nbsp;&nbsp;Đến
+									 <input  class="form-control" size="10"  name="age_to" id="age_to" maxlength="12" value="" >
+								  									
+									
+								</div>
+							</div>
+						  
+						   <div class="form-group row">        
+								<label class="control-label col-sm-4" for="pwd">Kinh nghiệm *:</label>
+							  <div class="col-sm-8 form-inline ">									
+										<select  class="form-control" name="JOB_ISEXPERIENCE" id="JOB_ISEXPERIENCE" >
+												<option value="">Chọn Kinh nghiệm</option>
+												<option value="2">Không yêu cầu kinh nghiệm</option>
+												<option value="1">Có kinh nghiệm</option>
+												<option value="0">Chưa có kinh nghiệm</option>
+											</select>
+									<span id="error_resumetype"></span>
+								</div>
+							</div>
+						  <div class="form-group row">        
+								<label class="control-label col-sm-4" for="pwd">Cấp bậc *:</label>
+							  <div class="col-sm-8 form-inline ">									
+										<select class="form-control" name="LEVEL_ID" id="LEVEL_ID">
+												<option value="">Chọn Cấp bậc</option>
+													<option value="1">Sinh viên/ Thực tập sinh</option>
+													<option value="2">Mới tốt nghiệp</option>
+													<option value="3">Nhân viên</option>
+													<option value="4">Trưởng nhóm / Giám sát</option>
+													<option value="5">Quản lý</option>
+													<option value="6">Phó Giám đốc</option>
+													<option value="7">Giám đốc </option>
+													<option value="8">Tổng giám đốc</option>
+													<option value="9">Chủ tịch / Phó Chủ tịch</option>
+											</select>
+									<span id="error_resumetype"></span>
+								</div>
+							</div>
+						  <div class="form-group row">        
+								<label class="control-label col-sm-4" for="pwd">Bằng cấp:</label>
+							  <div class="col-sm-8 ">									
+										<select class="form-control" name="DEGREE_ID" id="DEGREE_ID">
+											<option value="0">Không yêu cầu bằng cấp</option>
+											<option value="1">Trung học</option>
+											<option value="2">Trung cấp</option>
+											<option value="3">Cao đẳng</option>
+											<option value="4">Đại học</option>
+											<option value="5">Sau đại học</option>
+											<option value="6">Khác</option>
+										</select>
+									
+								</div>
+							</div>
+						  <div class="form-group row">        
+								<label class="control-label col-sm-4" for="pwd">Yêu cầu hồ sơ:</label>
+							  <div class="col-sm-8 ">									
+										<ul class="list-group" style="list-style: none">											
+												<li>
+													<div class="col">
+														<label>
+															<input type="checkbox" class="input_margin chk_lang_req" id="language_require_1" name="LANGUAGE_REQUIRE[]" value="1">
+															<span>Tiếng Anh</span>
+														</label>
+													</div>
+													<div class="col">
+														<label style="display:none;" id="lang_priority_1">
+														<input type="checkbox" class="input_margin unique chk_lang_pri" id="language_priority_1" name="LANGUAGE_PRIORITY[]" value="1" checked="checked">
+														<span>Ưu tiên</span>
+														</label>
+													</div>
+													</li>											
+												<li>
+													<div class="col">
+														<label>
+															<input type="checkbox" class="input_margin chk_lang_req" id="language_require_2" name="LANGUAGE_REQUIRE[]" value="2">
+															<span>Tiếng Việt</span>
+														</label>
+													</div>
+													<div class="col">
+														<label style="display:none;" id="lang_priority_2">
+														<input type="checkbox" class="input_margin unique chk_lang_pri" id="language_priority_2" name="LANGUAGE_PRIORITY[]" value="2" checked="checked">
+														<span>Ưu tiên</span>
+														</label>
+													</div>
+													</li>											
+												<li>
+													<div class="col">
+														<label>
+															<input type="checkbox" class="input_margin chk_lang_req" id="language_require_3" name="LANGUAGE_REQUIRE[]" value="3">
+															<span>Tiếng Pháp</span>
+														</label>
+													</div>
+													<div class="col">
+														<label style="display:none;" id="lang_priority_3">
+														<input type="checkbox" class="input_margin unique chk_lang_pri" id="language_priority_3" name="LANGUAGE_PRIORITY[]" value="3" checked="checked">
+														<span>Ưu tiên</span>
+														</label>
+													</div>
+													</li>											
+												<li>
+													<div class="col">
+														<label>
+															<input type="checkbox" class="input_margin chk_lang_req" id="language_require_4" name="LANGUAGE_REQUIRE[]" value="4">
+															<span>Tiếng Trung</span>
+														</label>
+													</div>
+													<div class="col">
+														<label style="display:none;" id="lang_priority_4">
+														<input type="checkbox" class="input_margin unique chk_lang_pri" id="language_priority_4" name="LANGUAGE_PRIORITY[]" value="4" checked="checked">
+														<span>Ưu tiên</span>
+														</label>
+													</div>
+													</li>											
+												<li>
+													<div class="col">
+														<label>
+															<input type="checkbox" class="input_margin chk_lang_req" id="language_require_5" name="LANGUAGE_REQUIRE[]" value="5">
+															<span>Tiếng Nhật</span>
+														</label>
+													</div>
+													<div class="col">
+														<label style="display:none;" id="lang_priority_5">
+														<input type="checkbox" class="input_margin unique chk_lang_pri" id="language_priority_5" name="LANGUAGE_PRIORITY[]" value="5" checked="checked">
+														<span>Ưu tiên</span>
+														</label>
+													</div>
+													</li>											
+												<li>
+													<div class="col">
+														<label>
+															<input type="checkbox" class="input_margin chk_lang_req" id="language_require_6" name="LANGUAGE_REQUIRE[]" value="6">
+															<span>Tiếng Hàn Quốc</span>
+														</label>
+													</div>
+													<div class="col">
+														<label style="display:none;" id="lang_priority_6">
+														<input type="checkbox" class="input_margin unique chk_lang_pri" id="language_priority_6" name="LANGUAGE_PRIORITY[]" value="6" checked="checked">
+														<span>Ưu tiên</span>
+														</label>
+													</div>
+													</li>											
+													   
+											</ul>
+									
+								</div>
+							</div>
+						  
+						  <div class="form-group row">        
+                          <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-warning">Tiếp tục và Xem lại thông tin</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+   		 </div>
+      </div>
+	</div>     
+ 	</div>
+	</div> 
+   <div class="btn-group-wrap">
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary" id="google-search">Google Search</button>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary" id="feeling-lucky">I'm Feeling Lucky</button>
+      </div>
+    </div>
+  </div> 
+    <div id="footer">
+      <div class="navbar w3-metro-dark-blue navbar-fixed-bottom" role="navigation">
+        <div class="container">
+
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+
+</html>

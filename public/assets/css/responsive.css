@@ -1,0 +1,481 @@
+
+
+/*
+Author: XpeedStudio
+Author URI: http://themeforest.net/user/XpeedStudio/portfolio
+*/
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 15px;
+    }
+    .home-content h1 {
+    font-size: 40px;
+	}
+	.signup-process .signup-details h5 {
+    font-size: 21px;
+	}
+	.signup-process .signup-details .number li {
+    font-size: 13px;
+
+	}
+	.community-edition{
+		margin-bottom:20px;
+	}
+}
+/* Portrait tablets and small desktops */
+@media  (max-width: 991px) {
+    html {
+        font-size: 80%;
+    }
+	.home-content h1 {
+    font-size: 36px;
+	}
+   .heading-content h1 {
+    font-size: 45px;
+	}
+	.signup-process .signup-icon {
+    float: none;
+	}
+	.community-edition{
+		margin-bottom:20px;
+	}
+	.signup-process .signup-details {
+    float:none;
+	}
+
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	
+    html {
+        font-size: 70%;
+    }
+	.job-margin-top{
+		margin-top: 10px;
+		
+	}
+	.job-box-width{
+		width: 95%;
+	}
+	.home-content h1 {
+    font-size: 22px;
+	}
+	.navbar-default .collapse .login a {
+    margin-left:0;
+    width:22%;
+	}
+	.home-contact p {
+    font-size: 14px;
+	}
+	.heading-content h1 {
+    font-size: 28px;
+	}
+	.signup-process .signup-icon {
+    float: none;
+	}
+	.community-edition{
+		margin-bottom:20px;
+	}
+	.single_right_contact p{
+	margin-top:25px;
+	}
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		line-height: 20px;
+		color: white;
+		margin-top: 10px;
+		font-size: 16px;
+	}
+	.navbar-right {
+		float: none;
+		margin-right: 10px;
+	}
+	*{
+		font-size: 14px;
+	}
+	.job_group {
+		border-bottom: orange solid thick;
+		height: 80px;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 0px;
+	}
+	.panel-body
+	{
+    margin-left: 0px;
+    margin-right: 0px;
+	}
+	.pl_mb{
+		display: inline-block;
+		
+	}
+	.pl_mb label span{
+		font-size: 11px;
+		margin-right: 5px;
+		margin-bottom: 15px;
+		
+	}
+	.pl_pc{
+		display: none;
+	}
+	.radio-inline, .checkbox-inline{
+		font-size: 10px;
+	}
+	.fl_left ,.mar_top10 p{
+		font-size: 10px;
+	}
+	.active{
+		margin-right: -20px;
+	}
+	.col-sm-6, .col-md-6, .col-lg-6
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.benefit-lb
+{
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+}
+
+
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    html {
+        font-size: 60%;
+    }
+	.home-content h1 {
+    font-size:13px;
+	}
+   .navbar-default .collapse .login a {
+    margin-left: 0;
+    width: 23%;
+	}
+	.social-wrapper .social-contact a {
+    color: #fff;
+    margin-right: 20px;
+    float: left;
+    margin-top: 10px;
+	}
+	.home-contact p {
+
+    font-size: 8px;
+	}
+	.heading-content h1 {
+    font-size: 16px;
+	}
+	.signup-process .signup-icon {
+    float: none;
+	}
+	.signup-process .signup-details h5 {
+    font-size: 23px;
+    margin-left:0;
+	}
+	.signup-process .signup-details {
+    float:none;
+	}
+	.community-edition{
+		margin-bottom:20px;
+	}
+	.single_features_right h2 {
+    font-size: 22px;
+	}
+	.single_features_right p {
+    line-height: 24px;
+	}
+	.single_service_right p {
+    line-height: 24px;
+	}
+	.single_service2 .single_service_right {
+    width: 100%;
+    padding-left:0;
+	}
+	.single_service_right h2 {
+	margin-bottom: 15px;
+	}
+	.nav-stacked{
+		margin-left: -100px;
+		text-align: center;
+		font-size: 16px;
+	}
+	.navbar-right {
+		float: none;
+	  }
+}
+
+
+
+@media (max-width: 320px) {
+
+
+    html {
+        font-size: 50%;
+    }
+	.signup-process .signup-icon {
+    float: none;
+	}
+	.community-edition{
+		margin-bottom:20px;
+	}
+	.navbar-default .collapse .login a {
+    width: 36%;
+	}
+	.social-icon{
+		margin-left: 80px;
+	}
+	.social-wrapper .social-contact {
+    margin-left: 52px;
+	}
+}
+@media all and (max-width: 767px) {
+	.table-responsive{
+		border: none;
+		}
+		
+}
+@media all and (max-width: 425px) {
+	.transbox{
+		margin-left: 20px !important;
+		margin-right: 20px !important;
+		}
+	.glyphicon {
+	
+		margin-top: -20px;
+		
+	}
+	
+		
+}
+@media screen and (max-width:1000px) {
+	.logo {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 46px;
+	  display:list-item;
+	  padding: 10px 0 0 0;
+	  float: left
+	}
+	.showbox{
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	  width:100%;
+	   } 
+  .largeshowbox{
+	  border-radius: 5px;
+	  background-color:#FFF;
+	  width:93%;
+	
+	  margin-left:5px;
+	  margin-right:5px;	
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	  padding-left: 10px;
+	   } 
+	header {
+	position: relative;
+	width: 100%;
+	background: #3b5998;  
+	padding-left:0px;
+	  }
+	  .visiblesearch{
+	   display:none;
+	   height:auto;
+	  }
+  
+	.logo2 {
+	  display: none
+	}
+	nav {
+	  width: 100%;
+	}
+	#cssmenu {
+	  width: 100%
+	}
+	#cssmenu ul {
+	  width: 100%;
+	  display: none
+	}
+	#cssmenu ul li {
+	  width: 100%;
+	  border-top: 1px solid #FFF;
+	}
+	#cssmenu ul li:hover {
+	  background: #039;
+	}
+	#cssmenu ul ul li,
+	#cssmenu li:hover > ul > li {
+	  height: auto
+	}
+	#cssmenu ul li a,
+	#cssmenu ul ul li a {
+	  width: 100%;
+	  border-bottom: 0
+	}
+	#cssmenu > ul > li {
+	  float: none
+	}
+	#cssmenu ul ul li a {
+	  padding-left: 25px
+	}
+	#cssmenu ul ul li {
+	  background: #039!important;
+	}
+	#cssmenu ul ul li:hover {
+	  background: #363636!important
+	}
+	#cssmenu ul ul ul li a {
+	  padding-left: 35px
+	}
+	#cssmenu ul ul li a {
+	  color: #ddd;
+	  background: none
+	}
+	#cssmenu ul ul li:hover > a,
+	#cssmenu ul ul li.active > a {
+	  color: #fff
+	}
+	#cssmenu ul ul,
+	#cssmenu ul ul ul {
+	  position: relative;
+	  left: 0;
+	  width: 100%;
+	  margin: 0;
+	  text-align: left
+	}
+	#cssmenu > ul > li.has-sub > a:after,
+	#cssmenu > ul > li.has-sub > a:before,
+	#cssmenu ul ul > li.has-sub > a:after,
+	#cssmenu ul ul > li.has-sub > a:before {
+	  display: none
+	}
+	#cssmenu #head-mobile {
+	  display: block;
+	  padding: 23px;
+	  color: #ddd;
+	  font-size: 12px;
+	  font-weight: 700
+	}
+	.button {
+	  width: 46px;
+	  height: 46px;
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	  cursor: pointer;
+	  border-left: 1px solid #fff;
+	  z-index: 12399994;
+	}
+	.button:after {
+	  position: absolute;
+	  top: 22px;
+	  right: 20px;
+	  display: block;
+	  height: 4px;
+	  width: 20px;
+	  border-top: 3px solid #fff;
+	  border-bottom: 2px solid #fff;
+	  content: ''
+	}
+	.button:before {
+	  -webkit-transition: all .3s ease;
+	  -ms-transition: all .3s ease;
+	  transition: all .3s ease;
+	  position: absolute;
+	  top: 16px;
+	  right: 20px;
+	  display: block;
+	  height: 2px;
+	  width: 20px;
+	  background: #ddd;
+	  content: ''
+	}
+	.button.menu-opened:after {
+	  -webkit-transition: all .3s ease;
+	  -ms-transition: all .3s ease;
+	  transition: all .3s ease;
+	  top: 23px;
+	  border: 0;
+	  height: 2px;
+	  width: 19px;
+	  background: #fff;
+	  -webkit-transform: rotate(45deg);
+	  -moz-transform: rotate(45deg);
+	  -ms-transform: rotate(45deg);
+	  -o-transform: rotate(45deg);
+	  transform: rotate(45deg)
+	}
+	.button.menu-opened:before {
+	  top: 23px;
+	  background: #fff;
+	  width: 19px;
+	  -webkit-transform: rotate(-45deg);
+	  -moz-transform: rotate(-45deg);
+	  -ms-transform: rotate(-45deg);
+	  -o-transform: rotate(-45deg);
+	  transform: rotate(-45deg)
+	}
+	#cssmenu .submenu-button {
+	  position: absolute;
+	  z-index: 99;
+	  right: 0;
+	  top: 0;
+	  display: block;
+	  border-left: 1px solid #FFF;
+	  height: 46px;
+	  width: 46px;
+	  cursor: pointer
+	}
+	#cssmenu .submenu-button.submenu-opened {
+	  background: #3b5998
+	}
+	#cssmenu ul ul .submenu-button {
+	  height: 34px;
+	  width: 34px
+	}
+	#cssmenu .submenu-button:after {
+	  position: absolute;
+	  top: 22px;
+	  right: 19px;
+	  width: 8px;
+	  height: 2px;
+	  display: block;
+	  background: #ddd;
+	  content: ''
+	}
+	#cssmenu ul ul .submenu-button:after {
+	  top: 15px;
+	  right: 13px
+	}
+	#cssmenu .submenu-button.submenu-opened:after {
+	  background: #fff
+	}
+	#cssmenu .submenu-button:before {
+	  position: absolute;
+	  top: 19px;
+	  right: 22px;
+	  display: block;
+	  width: 2px;
+	  height: 8px;
+	  background: #ddd;
+	  content: ''
+	}
+	#cssmenu ul ul .submenu-button:before {
+	  top: 12px;
+	  right: 16px
+	}
+	#cssmenu .submenu-button.submenu-opened:before {
+	  display: none
+	}
+	#cssmenu ul ul ul li.active a {
+	  border-left: none
+	}
+	#cssmenu > ul > li.has-sub > ul > li.active > a,
+	#cssmenu > ul ul > li.has-sub > ul > li.active > a {
+	  border-top: none
+	}
+  }
